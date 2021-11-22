@@ -17,7 +17,7 @@ public class BasicAuthenticationPopUp {
     @Test
     public void testBasicAuth() {
 
-        // UserName --admin
+        // UserName --admin --
         // Password --admin
         // URL --- http://the-internet.herokuapp.com/basic_auth
         // Updated URl -- http://admin:admin@the-internet.herokuapp.com/basic_auth
