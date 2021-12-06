@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+    <listeners>
+        <listener class-name="TestNG.Retry.TestRetryAnalyzerListener"/>
+    </listeners>
+
+    <test name="Login">
+        <classes>
+            <class name="TestNG.Retry.RetryFailedTest"/>
+        </classes>
+    </test>
+</suite>
