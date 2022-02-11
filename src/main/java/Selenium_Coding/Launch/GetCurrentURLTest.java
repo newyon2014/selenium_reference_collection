@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GetCurrentURLTest {
-    // Q. What's the difference between get9) and navigate.to() methods?
+    // Q. What's the difference between get() and navigate.to() methods?
     // Ans:
         //Both methods are used for opening URL in the browser.there is no duffference between them.
         //They are synonyms for one another
